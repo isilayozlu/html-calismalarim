@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+    
+    <form>
+        <h3>Hesap Bilgileriniz</h3>
+        <p>Kullanıcı Adı <input type="text" name="username" placeholder="Kullanıcı adını giriniz" required></p>
+        <p>Eposta <input type="text" name="eposta"placeholder="e-posta giriniz" required></p>
+        <p>Parola<input type="password" name= "parola"placeholder="parola giriniz" required></p>
+
+        <h3>Kişisel Bilgileriniz</h3>
+
+        <p>Ad: <input type="text" name="ad"></p>
+        <p>Soyad: <input type="text" name="soyad"></p>
+        <p>Şehir: <select name="şehir">
+            <option>Seçiniz</option>
+            <option>Sinop</option>
+            <option>Ankara</option>
+            <option>İstanbul</option>
+            <option>Karabük</option>
+            <option>Samsun</option>
+        </select></p>
+        <p>Cinsiyet:
+            <input type="radio" name="cinsiyet">Erkek
+            <input type="radio" name="cinsiyet">Kadın
+        </p>
+
+        <p>Hobileriniz:
+            <input type="checkbox">Sinema
+            <input type="checkbox">Gezi
+            <input type="checkbox">Spor
+            <input type="checkbox">Kitap
+        </p>
+
+        <input type="submit" value="kaydet">
+        <input type="reset">
+
+    </form>
+
+    
+</body>
+</html>
